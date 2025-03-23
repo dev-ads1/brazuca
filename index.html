@@ -11,22 +11,30 @@
     <style>
         /* Estilo para o banner */
         .banner {
-            width: 120%;
+            width: 100%;
             height: 400%; /* Ajuste a altura conforme necessário */
             background-image: url(faixa-banner.jpg); /* Caminho da imagem do banner */
-            background-size:cover;
-            background-position: center;
-            text-align: center;
-            display:flex-start;
-            align-items: center;
-            justify-content: center;
+            background-size:contain;
+            background-position:center;
+            text-align:center;
+            display:flexbox;
+            align-items:center;
+            justify-content:center;
             color: white;
-            font-size: 24px;
+            text-decoration:underline;
+            font-size: 26px;
             font-weight: bold;
             min-height: 300px;
-            
+                  
         
         }
+        .banner span {
+    background-color: black; /* Escolha a cor desejada */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -101,9 +109,32 @@
         }
        
         .container {
-  display: flex; /* Coloca os itens lado a lado */
-  align-items: stretch; /* Alinha os itens na altura máxima */
-}
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .section-box {
+            width: 30%;
+            min-width: 250px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .section-box p {
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .section-box:hover p {
+            opacity: 1;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
 
 
 
@@ -113,8 +144,47 @@
 
 <body>
     <header class="banner">
-        Bem-vindo a Associação de Karatê Brazuca!
+        <span>Bem-vindo(a) à Associação de Karatê Brazuca!</span>
     </header>
+
+    <div class="container">
+        <div class="section-box" id="sobre">
+            <h2>Sobre</h2>
+            <p>Somos uma associação dedicada ao ensino e prática do Karatê Shotokan</p>
+        </div>
+
+        <div class="section-box" id="horarios">
+            <h2>Horários</h2>
+            <p>Confira nossos horários de treinamento para diferentes faixas etárias: Segundas, Quartas e Quintas-feiras de 18h às 19:30h</p>
+        </div>
+
+        <div class="section-box" id="instrutores">
+            <h2>Instrutores</h2>
+            <p>Nossos instrutores são altamente qualificados e possuem anos de experiência</p>
+        </div>
+
+        <div class="section-box" id="depoimentos">
+            <h2>Depoimentos</h2>
+            <p>Veja o que nossos alunos e pais dizem sobre nós: Consultar nossas redes sociais</p>
+        </div>
+
+        <div class="section-box" id="noticias">
+            <h2>Notícias</h2>
+            <p>Fique por dentro das novidades e eventos do Karatê Brazuca: Consultar nossas redes sociais</p>
+            
+        </div>
+
+        <div class="section-box" id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco através do telefone, e-mail ou rede social.</p>
+            <p>E-mail: <a href="mailto:juliokarateca2011@hotmail.com">juliokarateca2011@hotmail.com</a></p>
+        <p>Telefone: <a href="tel:+5534988073549">+55 34 98807-3549</a></p>
+        <p>Redes sociais: 
+            <a href="https://www.instagram.com/karatebrazuca/" target="_blank">Instagram</a> | 
+            <a href="https://www.facebook.com/profile.php?id=100057088374791" target="_blank">Facebook</a>
+        </p>
+        </div>
+    </div>
 
     <img src="gif-karate.gif" alt="some text" width=200 height=200>
     
