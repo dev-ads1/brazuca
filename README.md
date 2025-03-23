@@ -45,9 +45,9 @@ Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
 
 Para mais informações, entre em contato com a **Associação de Karatê Brazuca** através de:
 
-- E-mail: contato@karatebrazuca.com.br
-- Telefone: (31) 1234-5678
-- Redes sociais: [Instagram](https://instagram.com/karatebrazuca) | [Facebook](https://facebook.com/karatebrazuca)
+- E-mail: juliokarateca2011@hotmail.com
+- Telefone: +55 34 988073549
+- Redes sociais: [Instagram](https://www.instagram.com/karatebrazuca/) | [Facebook](https://www.facebook.com/profile.php?id=100057088374791)
 
 ---
 
