@@ -1,54 +1,70 @@
-# Projeto: Site da Associação de Karatê Brazuca
+# 🥋 Sistema Piloto – Associação de Karatê Brazuca
 
-Bem-vindo ao repositório do projeto de criação do site para a **Associação de Karatê Brazuca**! Este projeto tem como objetivo desenvolver uma plataforma online que represente e apoie as atividades desta associação, incentivando a prática esportiva e a promoção do karatê como modalidade que fortalece o corpo e a mente.
+Projeto desenvolvido para a **Associação de Karatê Brazuca (Araguari/MG)** como parte do Projeto de Extensão V do curso de ADS do **Centro Universitário União das Américas – Descomplica**.
 
-## Sobre a Associação
-
-A Associação de Karatê Brazuca é uma entidade filiada à Federação Mineira de Karatê e destaca-se por estimular a prática do **karatê shotokan**. A associação busca incentivar crianças, jovens e adultos a praticarem essa modalidade esportiva, reconhecida pelos benefícios físicos e mentais que proporciona aos seus praticantes.
-
-### Valores da Associação
-- **Esporte e Disciplina:** Promover a prática esportiva com base nos princípios do karatê, como respeito, autocontrole e disciplina.
-- **Inclusão e Bem-Estar:** Incentivar a participação de pessoas de todas as idades e níveis de habilidade.
-- **Crescimento Pessoal:** Proporcionar um ambiente que estimule o desenvolvimento físico e mental dos praticantes.
-
-## Objetivos do Site
-
-O site será desenvolvido para atender às seguintes finalidades:
-
-1. **Divulgação:** Apresentar a associação, seus valores e objetivos.
-2. **Informação:** Disponibilizar informações sobre aulas, eventos, torneios e atividades relacionadas ao karatê shotokan.
-3. **Engajamento:** Facilitar a comunicação com membros e interessados, além de promover o crescimento da comunidade.
-4. **Modernidade:** Criar uma interface amigável e acessível, destacando-se pela facilidade de navegação e design responsivo.
-
-## Funcionalidades Planejadas
-
-- **Página Inicial:** Informações principais sobre a associação e suas atividades.
-- **Calendário de Eventos:** Agenda com os próximos eventos, treinos e competições.
-- **Área para Contato:** Formulário para contato direto com a equipe da associação.
-- **Galeria de Fotos:** Imagens de eventos e atividades realizadas.
-- **Área de Notícias:** Atualizações e novidades sobre o karatê e a associação.
-
-## Tecnologias Utilizadas
-
-- **Frontend:** HTML, CSS, JavaScript
-
-## Como Contribuir
-
-Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
-
-1. Faça um fork deste repositório.
-2. Crie um branch para sua funcionalidade ou correção: `git checkout -b minha-nova-funcionalidade`.
-3. Envie suas alterações: `git push origin minha-nova-funcionalidade`.
-4. Abra um Pull Request.
-
-## Contato
-
-Para mais informações, entre em contato com a **Associação de Karatê Brazuca** através de:
-
-- E-mail: juliokarateca2011@hotmail.com
-- Telefone: +55 34 988073549
-- Redes sociais: [Instagram](https://www.instagram.com/karatebrazuca/) | [Facebook](https://www.facebook.com/profile.php?id=100057088374791)
+O objetivo foi criar uma **landing page integrada a um sistema piloto local** para cadastro de alunos e controle de frequência.
 
 ---
 
-Agradecemos o seu interesse em nosso projeto! Juntos, podemos promover o karatê e seus valores para um público ainda maior.
+## 🚀 Funcionalidades
+
+### 🌐 Landing Page
+- Informações da associação
+- Vídeos e quiz educativo
+- Galeria e contato
+
+### 🧾 Sistema Piloto
+- Login simples para instrutores
+- Cadastro de alunos (nome, idade, responsável, telefone, faixa)
+- Listagem de alunos
+- Registro de presença por data
+- Relatório mensal simples
+
+⚠️ O sistema roda offline usando **LocalStorage** (versão piloto acadêmica).
+
+---
+
+## 🛠 Tecnologias
+
+- HTML
+- CSS
+- JavaScript
+- LocalStorage
+
+---
+
+## 📌 Limitações
+
+Por ser versão piloto:
+
+- Sem backend real
+- Sem segurança avançada
+- Dados apenas no computador local
+
+A versão futura incluirá Node.js + MySQL + login seguro.
+
+---
+
+## 👨‍💻 Autores
+
+- Rafaelle Fonseca Caldeira
+- Marcio Antonio Oliveira Caldeira
+
+Projeto acadêmico do curso ADS.
+
+---
+
+## 📞 Contato
+
+Associação de Karatê Brazuca – Araguari/MG  
+Email: contato@karatebrazuca.com  
+
+---
+
+## ⭐ Próximos Passos
+
+- Backend com Node.js
+- Banco de dados MySQL
+- Relatórios em PDF
+- Controle financeiro
+- Hospedagem do sistema
